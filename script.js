@@ -1,7 +1,7 @@
 document.addEventListener('click', checkInput);
 
 const ALL_URL = {
-    'IPA':                  'https://forms.gle/j143QEsf6kebw5FHA',
+    'IPA':                  'https://forms.gle/QCBGB4iMJapqYfD37',
     'Pendidikan Pancasila': '',
     'Matematika':           '',
     'Agama Katolik':        '',
