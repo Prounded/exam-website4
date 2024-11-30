@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    color: #E0E0E0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    width: 100vw;
+    user-select: none;
+    overflow: hidden;
+    background-color: #2b2b2b;
+}
+
+.headerDiv{
+    margin-top: 0;
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    display: flex;
+    border-bottom: 1px solid;
+    font-weight: bold;
+    background-color: #2b2b2b47;
+}
+
+.examLinkContainer{
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 150px;
+}
+
+.examDisplayContainer{
+    text-align: center;
+    padding-top: 15px;
+    background-color: #353535;
+    width: 230px;
+    height: 120px;
+    margin-left: 50px;
+    margin-right: 50px;
+    box-shadow: 12px 12px rgb(27, 27, 27);
+    border-radius: 10px;
+    border: 2px #646464 solid;
+    padding-bottom: 20px;
+}
+
+.takeExamImage{
+    width: 75px;
+}
+
+.examCurrentTitle{
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.examDisplayContainer:hover{
+    cursor: pointer;
+}
+
+.dateDisplay{
+    font-size: 22px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    font-weight: bold;
+}
+
+.backgroundImage{
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    background-image: url(backgroundImage.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: brightness(50%);
+    z-index: -9999;
+}
+
+
+@media (max-width: 900px){
+    .examLinkContainer{
+        display: block;
+        justify-content: center;
+        top: 75px;
+    }
+
+    .examDisplayContainer{
+        top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+    }
+
+    .headerTitle{
+        font-size: 22px;
+        font-weight: bold;
+    }
+}
