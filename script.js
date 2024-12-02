@@ -3,8 +3,8 @@ document.addEventListener('click', checkInput);
 const ALL_URL = {
     'IPA':                  'https://forms.gle/QCBGB4iMJapqYfD37',
     'Pendidikan Pancasila': '',
-    'Matematika':           '',
-    'Agama Katolik':        '',
+    'Matematika':           'https://forms.gle/2eNHVfj3ZtyTUaTs7',
+    'Agama Katolik':        'https://forms.gle/EVXyrJ5YmckwwmQN9',
     'IPS':                  '',
     'Informatika':          '',
     'PJOK':                 '',
